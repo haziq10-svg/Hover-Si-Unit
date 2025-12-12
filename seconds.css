@@ -1,0 +1,44 @@
+  .margin{
+            width: 200px;
+            height: 200px;
+            margin-left : 300px;
+            margin-top: 300px;
+            position : relative;
+        }
+       
+        .si img{
+            height : 200px;
+
+        }
+.dropdown img{
+    position:absolute;
+    top:80px;
+    right: 0px;
+    height: 60px;
+    opacity: 0;
+    
+}
+
+.margin a{
+    text-decoration: none;
+}
+
+.content{
+    color: black;
+    font-size: 15px;
+    width: 200px;
+    text-align: justify;
+    background-color: bisque;
+    padding: 10px;
+
+    position: absolute;
+    top: 50px;
+    left: 210px;
+    display:none;
+
+}
+
+.dropdown:hover .content{
+    display:block
+}
+

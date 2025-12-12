@@ -1,0 +1,24 @@
+.dropdown7 img{
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    height: 60px;
+    opacity:0;
+}
+
+.content6{
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    position: absolute;
+    top: -70px;
+    left: 210px;
+    width: 200px;
+    background-color: bisque;
+    padding: 10px;
+    display: none;
+}
+
+.dropdown7:hover .content6{
+    display:block;
+}

@@ -1,0 +1,26 @@
+.dropdown5 .links{
+    color: black;
+}
+
+.dropdown5 img{
+    position: absolute;
+    top:0px;
+    left: 70px;
+    height:60px;
+    opacity:0;
+}
+.content4{
+    font-size : 15px;
+    background-color: bisque;
+    padding: 10px;
+    position: absolute;
+    top: -250px;
+    width:200px;
+    text-align: justify;
+    right: 0px;
+    display:none ;
+}
+
+.dropdown5:hover .content4{
+    display:block
+}
